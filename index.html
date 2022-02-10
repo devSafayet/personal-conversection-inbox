@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal conversection</title>
+    <!-- css stylesheets  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font-icons sheets  -->
+    <script src="https://kit.fontawesome.com/beb87a90d1.js" crossorigin="anonymous"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1 class="tittle" style="color: blue;">Messenger</h1>
+    <section class="container">
+        <div id="color-apply1" class="mesenger">
+            <header>
+                <div class="left-item">
+                    <div class="logo">
+                        <img src="image/safa.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4 title="Md. SafayeTul islam Sayem">Md. SafayeT...</h4>
+                        <h5>Active now..</h5>
+                    </div>
+                </div>
+                <div class="right-item">
+                    <div class="item call"><i class="fas fa-phone"></i></div>
+                    <div onclick="myFunction('menu1')" class="item call"><span>i</span></i></div>
+                    <div onclick="colorApply('color-apply1', 'white')" class="item tomato"></div>
+                    <div onclick="colorApply('color-apply1', '#a9fab9')" class="item indigo"></div>
+                    <div onclick="colorApply('color-apply1', '#ccff66')" class="item lightgreen"></div>
+                </div>
+                <div id="menu1" class="others">
+                    <a href="index.html"><p onclick="deletChat('sms-l', 'sms-r')">1.Delete Chat</p></a>
+                    <p onclick="colorTheme('color-apply1')">2 Change Theme</p>
+                    <p onclick="scroll1('sms-box')"><a target="_blank" href="https://web.facebook.com/safayet003.admin/">3 View profile</a></p>
+                </div>
+            </header>
+            <div id="sms-box" class="sms-content">
+                <div class="profile">
+                    <img src="image/safa.JPG" alt="">
+                    <h4>Md. SafayeTul islam Sayem</h4>
+                    <small>Your friends on facebook</small>
+                    <small>null</small>
+                </div>
+            </div>
+            <footer>
+                <div class="end-section">
+                    <textarea name="" onclick="clickBox('my-emoji-box1')" id="comment-box" cols="10" rows="5"></textarea>
+                    <p onclick="myFunction('my-emoji-box1')" class="love emogi">🙂</p>
+                    <button onclick="smsAdd('comment-box', 'sms-box', 'sms-box-second')">Sent</button>
+                    <p id="love1" onclick="loveSent('love1', 'sms-box-second', 'sms-box')" class="love">❤️</p>
+                </div>
+                <div id="my-emoji-box1" class="emogi-box">
+                    <span onclick="addItem2('comment-box', 'Emogtem9')" id="Emogtem9">👍</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem2')" id="Emogtem2">🙂</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem3')" id="Emogtem3">🥰</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem4')" id="Emogtem4">😀</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem1')" id="Emogtem1">😂</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem5')" id="Emogtem5">😢</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem6')" id="Emogtem6">🐸</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem7')" id="Emogtem7">😡</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem8')" id="Emogtem8">🙄</span>
+                    
+                    <span onclick="addItem2('comment-box', 'Emogtem10')" id="Emogtem10">❤️</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem11')" id="Emogtem11">💔</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem12')" id="Emogtem12">💘</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem13')" id="Emogtem13">🤳</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem14')" id="Emogtem14">😘</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem15')" id="Emogtem15">😛</span>
+                    <span onclick="addItem2('comment-box', 'Emogtem16')" id="Emogtem16">😎</span>
+                </div>
+            </footer>
+        </div>
+        <!-- secend person -->
+
+
+        <div id="color-apply2" class="mesenger">
+            <header>
+                <div class="left-item">
+                    <div class="logo">
+                        <img src="image/surovi.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h4>Surovi Bhuiyan</h4>
+                        <h5>Active now..</h5>
+                    </div>
+                </div>
+                <div class="right-item">
+                    <div class="item call"><i class="fas fa-phone"></i></div>
+                    <div onclick="myFunction('menu2')" class="item call"><span>i</span></div>
+                    <div onclick="colorApply('color-apply2', 'white')" class="item tomato"></div>
+                    <div onclick="colorApply('color-apply2', '#a9fab9')" class="item indigo"></div>
+                    <div onclick="colorApply('color-apply2', '#ccff66')" class="item lightgreen"></div>
+                </div>
+                <div id="menu2" class="others">
+                    <a href="index.html"><p onclick="deletChat('sms-l', 'sms-r')">1.Delete Chat</p></a>
+                    <p onclick="colorTheme('color-apply2')">2 Change Theme</p>
+                    <p onclick="scroll1('sms-box-second')"> <a target="_blank" href="https://web.facebook.com/arbin.sara.98">3 View profile</a> </p>
+                </div>
+            </header>
+            <div id="sms-box-second" class="sms-content">
+                <div class="profile">
+                    <img src="image/surovi.jpg" alt="">
+                    <h4>Surovi Bhuiyan</h4>
+                    <small>Your friends on facebook</small>
+                    <small>Lives in Brahmanbaria, Bangladesh</small>
+                </div>
+            </div>
+            <footer>
+                <div class="end-section">
+                    <textarea name="" onclick="clickBox('my-emoji-box2')" id="comment-box-second" cols="10" rows="5"></textarea>
+                    <p onclick="myFunction('my-emoji-box2')" class="love emogi">🙂</p>
+                    <button onclick="smsAdd('comment-box-second', 'sms-box-second', 'sms-box')">Sent</button>
+                    <p onclick="loveSent('love2', 'sms-box', 'sms-box-second')" id="love2" class="love">❤️</p>
+                </div>
+                <div id="my-emoji-box2" class="emogi-box">
+                    <span onclick="addItem2('comment-box-second', 'Emogitem10')" id="Emogitem10">👍</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem2')" id="Emogitem2">😎</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem3')" id="Emogitem3">🙂</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem4')" id="Emogitem4">🥰</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem5')" id="Emogitem5">😀</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem1')" id="Emogitem1">😂</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem6')" id="Emogitem6">😢</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem7')" id="Emogitem7">🐸</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem8')" id="Emogitem8">😡</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem9')" id="Emogitem9">🙄</span>
+                   
+                    <span onclick="addItem2('comment-box-second', 'Emogitem11')" id="Emogitem11">❤️</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem12')" id="Emogitem12">💔</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem13')" id="Emogitem13">💘</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem14')" id="Emogitem14">🤳</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem15')" id="Emogitem15">😘</span>
+                    <span onclick="addItem2('comment-box-second', 'Emogitem16')" id="Emogitem16">😛</span>
+                </div>
+            </footer>
+        </div>
+    </section>
+<!-- javascript sheets  -->
+    <script src="js/main.js"></script>
+</body>
+</html>

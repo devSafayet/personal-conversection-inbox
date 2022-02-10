@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   scroll-behavior: smooth;
+   background-color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.tittle{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.mesenger{
+    min-width: 200px;
+    width: 300px;
+    max-height: 500px;
+    background-color: #e4fde4;
+    padding: 10px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-box-shadow: 0 2px 5px 2px rgb(138, 141, 138);
+    box-shadow: 0px 2px 2px 2px #a8f8d7;
+    border: 2px solid rgb(115, 172, 139);
+    margin: 0 10px;
+    position: relative;
+}
+.mesenger header{
+    padding: 0 10px;
+    border-bottom: 1px solid #b6b6fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.left-item .logo{
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 1px solid tomato;
+    margin-right: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: blue;
+}
+.left-item .logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+.left-item .content h4, h5{
+    margin: 0;
+    padding: 0;
+    color: #242121;
+}
+.left-item .content h5{
+    color: #8f8e8e;
+}
+
+
+.right-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+}
+.right-item .item{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.tomato{
+    background-color: white;
+}
+.indigo{
+    background-color: #a9fab9;
+}
+.lightgreen{
+    background-color: #ccff66;
+}
+.right-item .call{
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #6d6d6e;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+}
+.right-item .call span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #dad8d8;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    color: #302f2f;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.others{
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    top: 44px;
+    right: 10px;
+    background-color: #f6f3f7;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 22px;
+    box-shadow: 0px 0px 3px grey;
+    display: none;  
+}
+.others p {
+    cursor: pointer;
+}
+/* sms-content */
+.mesenger .sms-content{
+    min-height: 100px;
+    max-height: 250px;
+    overflow: auto;
+    margin: 10px;
+}
+.mesenger .sms-content .sms-l p{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-right: 15px;
+    border-left: 4px solid #b6b6fa;
+    display: inline-block;
+    background: linear-gradient(90deg, #ddf7e5, #f5e8fa);
+    color: #000000;
+    max-width: 80%; 
+    font-size: 14px;
+    padding: 5px 8px;
+    margin: 3px 0;
+    box-shadow: 0px 0px 2px gray;
+     
+}
+.sms-content .sms-r{
+    text-align: right;
+}
+.sms-content .sms-r p{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 15px;
+    border-right: 4px solid #b6b6fa;  
+    display: inline-block;
+    background: linear-gradient(45deg, rgb(238, 230, 215), rgb(231, 184, 225));
+    box-shadow: 0px 0px 2px gray;
+    color: #000000;
+    max-width: 80%; 
+    font-size: 14px;
+    padding: 5px 8px;
+    margin: 3px 0; 
+}
+
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+.profile small{
+    display: block;
+    color: #414040;
+}
+
+
+
+/* footer section */
+footer .end-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #b9b9f5;
+    padding: 0 10px;
+}
+footer textarea{
+    margin-top: 10px;
+    width: 52%;
+    height: 30px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    background-color: #f8f8cb;
+    box-sizing: border-box;
+    outline: 0;
+    border: 1px solid #6d63fc;
+    font-size: 12px;
+    resize: none;
+}
+footer textarea:hover{
+    box-shadow: 0px 0px 3px grey;
+}
+footer button{
+    width: 20%;
+    height: 30px;
+    padding: 3px 8px;
+    background-color: #e3a6f5;
+    color: blue;
+    border-radius: 10px;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+footer .love{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    /* background-color: #eed0f7; */
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+footer .emogi{
+/* background-color: none*/
+text-align: center;
+}
+footer .emogi-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+    background-color: #f6f3f7;
+    border-radius: 7px;
+    padding: 5px;
+    overflow: auto;
+    box-shadow: 0px 0px 3px grey;
+    display: none;
+}
+footer .emogi-box span{
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* color theme */
+.color-them{
+    background: linear-gradient(rgb(230, 191, 245), rgb(200, 232, 240));
+    animation: animat 5s linear infinite;
+}
+@keyframes animat{
+    0%{
+      filter: blur(0px) hue-rotate(0deg);
+    }
+    100%{
+      filter: blur(0px) hue-rotate(360deg);
+       
+    }
+    
+  }
+
+/* RESPONSIVE CSS */
+@media screen and (max-width: 599px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mesenger{
+        margin-bottom: 30px;
+        width: 90%;
+    }
+  }
